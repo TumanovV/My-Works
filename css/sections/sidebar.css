@@ -1,0 +1,66 @@
+.sidebar{
+  width: 115px;
+  float: left;
+}
+
+.nav__item{
+  margin-bottom: 35px;
+}
+.nav__item_active .nav__title{
+  color: #221f1f;
+}
+.nav__item_active .nav__icon_main{
+  background-image: url('../../img/icons/main_icon.png');
+}
+.nav__item_active .nav__icon_wallet{
+  background-image: url('../../img/icons/wallet_icon.png');
+}
+.nav__item_active .nav__icon_star{
+  background-image: url('../../img/icons/feed_icon.png');
+}
+
+.nav__link{
+  text-decoration: none;
+}
+
+
+.nav__link:hover .nav__title{
+  color: #221f1f;
+}
+.nav__link:hover .nav__icon_wallet{
+  background-image: url('../../img/icons/wallet_icon.png');
+}
+.nav__link:hover .nav__icon_main{
+  background-image: url('../../img/icons/main_icon.png');
+}
+.nav__link:hover .nav__icon_star{
+  background-image: url('../../img/icons/feed_icon.png');
+}
+
+.nav__icon{
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 17px;
+}
+.nav__title{
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ec1e79;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav__title_active{
+  color: #221f1f;
+}
+.nav__icon_main{
+  background: url('../../img/icons/main_icon_color.png') center center no-repeat;
+}
+.nav__icon_star{
+  background: url('../../img/icons/feed_icon_color.png') center center no-repeat;
+}
+.nav__icon_wallet{
+  background: url('../../img/icons/wallet_icon_color.png') center center no-repeat;
+}

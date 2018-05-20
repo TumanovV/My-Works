@@ -1,0 +1,31 @@
+.header{
+  background: #27273e;
+  color: #fff;
+  margin-bottom: 45px;
+}
+.header__col{
+  width: 50%;
+  float:left;
+}
+.header__col_right{
+  text-align: right;
+}
+.header__col_left{
+  text-align: left;
+}
+
+.contanct__phone{
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  font-style: normal;
+}
+.contanct__desc{
+  color: #ec1e79;
+  font-size: 14px;
+  font-style: normal;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
