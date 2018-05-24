@@ -245,3 +245,136 @@
 .pagination_workd{
   margin-bottom: 100px;
 }
+
+
+.form{
+  margin-bottom: 50px;
+}
+.title_form{
+  text-align: center;
+  margin-top: 50px;
+}
+.form__tag{
+  margin-bottom: -10px;
+}
+.form__fields{
+  width: 570px;
+  margin: 0 auto;
+}
+.form__row{
+  margin-right: -15px;
+  margin-bottom: 21px;
+}
+.form__elem{
+  width: 275px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.form__elem-title{
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.form__input{
+  width: 270px;
+  height: 45px;
+  border: none;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+.form__input:focus{
+  border: 1px solid #ec1e79;
+  border-radius: 5px;
+}
+.form__text-input{
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 561px;
+  height: 90px;
+}
+.form__text-input:focus{
+  border: 1px solid #ec1e79;
+  border-radius: 5px;
+}
+
+.form__radios{
+  width: 250px;
+  display: inline-block;
+}
+.form__radio{
+  width: 60px;
+  display: inline-block;
+}
+
+.form__controls{
+  display: inline-block;
+}
+.form__radio-label{
+  cursor: pointer;
+}
+.form__radio-elem{
+  position: absolute;
+  left: -9999px;
+}
+.form__radio-elem:checked + .radio__styled{
+  border: 1px solid #ec1e79;
+  background: rgba(0, 0, 0, 0);
+  transition: .75s;
+}
+
+.radio__styled{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #cbcbcb;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  position: relative;
+  vertical-align: middle;
+}
+
+
+.form__radio-elem:checked + .radio__styled:after{
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background: #ec1e79;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+.name__radio{
+  vertical-align: middle;
+}
+.form__radio-elem:checked ~ .name__radio{
+  color: #ec1e79;
+  transition: .75s;
+}
+
+.btn{
+  width: 139px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  background: #27273e;
+  transition: .5s;
+  cursor: pointer;
+  margin-left: 175px;
+}
+.btn:hover {
+  background: #ec1e79;
+}
+.submit-text{
+
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}

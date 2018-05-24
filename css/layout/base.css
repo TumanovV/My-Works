@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .wrapper{
-  position: relative;
+  /* position: relative; */
   min-width: 1080px;
   min-height: 100% ;
   overflow: hidden;
@@ -54,3 +54,4 @@ h1, h2, h3, h4, h5, h6{
 .container{
   width: 1060px;
   margin: 0 auto;
+}

@@ -151,7 +151,7 @@
                 </li>
               </ul>
             </div>
-            
+
 
 
           </div>
@@ -175,56 +175,70 @@
     <form action="">
       <div class="container">
         <div class="form">
-          <div class="title">Отзывы</div>
+          <div class="title title_form">Отзывы</div>
           <!-- содержимое формы -->
           <div class="form__fields">
             <div class="form__tag">
               <div class="form__inputs">
                 <div class="form__row">
                   <div class="form__elem">
-                    <label for="" class="form__elem-title">Ваше имя</label>
-                    <input type="text" name="" id="" class="form__input">
+                    <label for="" class="form__elem-label">
+                      <span class="form__elem-title">Ваше имя</span>
+                      <input type="text" name="" id="" class="form__input" placeholder="Вадим">
+                    </label>
                   </div>
                   <div class="form__elem">
-                    <label for="" class="form__elem-title">Адрес почты</label>
-                    <input type="email" name="" id="" class="form__input">
-                  </div>
-                </div>
-                <div class="form__row">
-                  <div class="form__textarea">
-                    <label for="" class="form__elem-title">Текст</label>
-                    <textarea name="" id="" class="form__text-input"></textarea>
+                    <label for="" class="form__elem-label">
+                      <span class="form__elem-title">Адрес почты</span>
+                      <input type="email" name="" id="" class="form__input" placeholder="vk.com/example">
+                    </label>
                   </div>
                 </div>
               </div>
-              <div class="form__buttons">
-                <div class="form__radios">
-                  <div class="form__raios-title">Отображать фото в отзыве?</div>
-                  <div class="form__radios-container">
-                    <div class="form__radio">
-                      <input type="radio" class="form__radio-elem">
-                      <label for="" class="form__radio-name">Да</label>
-                    </div>
-                    <div class="form__radio">
-                      <input type="radio" class="form__radio-elem">
-                      <label for="" class="form__radio-name">нет</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="form__controls">
-                  <button type="submit">
-                    <div class="submit-text">Отправить</div>
-                    <div class="submit-icon"></div>
-                  </button>
+              <div class="form__row">
+                <div class="form__textarea">
+                  <label for="" class="form__elem-label">
+                    <span class="form__elem-title">Текст отзыва</span>
+                    <textarea name="" id="" class="form__text-input" placeholder="Мне понравилось"></textarea>
+                  </label>
+                  
                 </div>
               </div>
             </div>
+            <div class="form__buttons">
+              <div class="form__radios">
+                <div class="form__raios-title">Отображать фото в отзыве?</div>
+                <div class="form__radios-container">
+                  <div class="form__radio">
+                    <label class="form__radio-label">
+                      <input type="radio" class="form__radio-elem" name="choice">
+                      <span class="radio__styled"></span>
+                      <span class="name__radio">Да</span>
+                    </label>
+                  </div>
+                  <div class="form__radio">
+                    <label class="form__radio-label">
+                      <input type="radio" class="form__radio-elem" name="choice">
+                      <span class="radio__styled"></span>
+                      <span class="name__radio">Нет</span>
+                    </label>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="form__controls">
+                <button class="btn" type="submit">
+                  <div class="submit-text">Отправить</div>
+                </button>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
-    </form>
   </div>
-
+  </form>
+  </div>
   </div>
   <footer class="footer">
     <div class="container clearfix">
