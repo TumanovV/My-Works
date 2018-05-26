@@ -140,8 +140,8 @@
 .form{
   margin: 0 auto;
   width: 700px;
-  height: 425px;
   background: #f5f5f5;
+  font-size: 14px;
 }
 /* =========================================================== */
 .header_mod{
@@ -252,7 +252,7 @@
 }
 .title_form{
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .form__tag{
   margin-bottom: -10px;
@@ -276,28 +276,35 @@
 }
 .form__input{
   width: 270px;
-  height: 45px;
+  height: 35px;
   border: none;
   padding: 5px;
   outline: none;
-  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+  border-radius: 3px;
   box-sizing: content-box;
+  transition: .5s;
+}
+.form__buttons{
+  padding-bottom: 25px;
 }
 .form__input:focus{
   border: 1px solid #ec1e79;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .form__text-input{
   border: none;
   outline: none;
   padding: 5px;
-  border-radius: 5px;
-  width: 561px;
+  border-radius: 3px;
+  width: 575px;
   height: 90px;
+  border: 1px solid #f5f5f5;
+  transition: .5s;
 }
 .form__text-input:focus{
   border: 1px solid #ec1e79;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .form__radios{
@@ -377,4 +384,114 @@
   color: #fff;
   text-transform: uppercase;
   font-size: 12px;
+}
+
+/* =============================================================== */
+
+.welcome{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: url('../img/content/intro.png')no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.welcome:before{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+}
+
+.welcome-box{
+  display: inline-block;
+  width: 195px;
+  height: 203px;
+  vertical-align: middle;
+  text-align: center;
+}
+.welcome__img{
+  width: 160px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.welcome__img-pic{
+  max-width: 100%;
+  display: inline-block;
+}
+.welcome__btn{
+  width: 180px;
+  height: 45px;
+  border: 3px solid #ec1e79;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  border-radius: 3px;
+  transition: .75s;
+  display: inline-block;
+}
+.welcome__btn:hover{
+  background:#ec1e79;
+}
+.welcome__btn:hover .welcome__btn-link{
+  color: #fff;
+}
+.welcome__btn-link{
+  text-decoration: none;
+  font-size: 12px;
+  color: #ec1e79;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dropdawn{
+  width: 160px;
+  z-index: 10;
+  border: 1px solid #fff;
+  position: absolute;
+  display: inline-block;
+  top: 100%;
+  margin-top: 20px;
+  right: 99999px;
+  text-align: center;
+  padding: 5px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.dropdawn__text{
+  font-weight: normal;
+  color: #221f1f;
+}
+.triangle{
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  margin-left: -30px;
+  width: 0px;
+  height:0px;
+  border-top: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid black;
+}
+.triangle:before{
+  content:"";
+  display: block;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  width: 0px;
+  height:0px;
+  border-top: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #fff;
+}
+.dropdawn__menu{
+  
+  display: inline-block;
 }
