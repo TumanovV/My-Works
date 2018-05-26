@@ -1,0 +1,58 @@
+.welcome{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: url('../../img/content/intro.png')no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.welcome:before{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+}
+
+.welcome-box{
+  display: inline-block;
+  width: 195px;
+  height: 203px;
+  vertical-align: middle;
+  text-align: center;
+}
+.welcome__img{
+  width: 160px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.welcome__img-pic{
+  max-width: 100%;
+  display: inline-block;
+}
+.welcome__btn{
+  width: 180px;
+  height: 45px;
+  border: 3px solid #ec1e79;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  border-radius: 3px;
+  transition: .75s;
+  display: inline-block;
+}
+.welcome__btn:hover{
+  background:#ec1e79;
+}
+.welcome__btn:hover .welcome__btn-link{
+  color: #fff;
+}
+.welcome__btn-link{
+  text-decoration: none;
+  font-size: 12px;
+  color: #ec1e79;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
