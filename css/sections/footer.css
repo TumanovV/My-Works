@@ -31,6 +31,7 @@
 
 .socials__link_vk:hover{
   background-position: 0 bottom;
+  transition: scale(1.1);
 }
 
 .socials__link_fb{

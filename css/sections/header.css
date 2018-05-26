@@ -32,5 +32,6 @@
 }
 
 .contanct__desc:hover .dropdawn{
-  right: -2px;
+  left: initial;
+  opacity: 1;
 }
