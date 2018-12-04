@@ -1,1 +1,1 @@
-https://tumanovv.github.io/Static-Page/welcome.html - COWORKING
+https://tumanovv.github.io/Static-Page/welcome.html - COWORKING [без PP]
